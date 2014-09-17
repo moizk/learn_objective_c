@@ -13,6 +13,8 @@
 		31B7060117F473B800CACEA7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31B705E017F473B800CACEA7 /* Cocoa.framework */; };
 		C8D61F9A19C9554000D1303A /* Shape.m in Sources */ = {isa = PBXBuildFile; fileRef = C8D61F9919C9554000D1303A /* Shape.m */; };
 		C8D61F9D19C9559200D1303A /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = C8D61F9C19C9559200D1303A /* Circle.m */; };
+		C8D61FA019C9582200D1303A /* Button.m in Sources */ = {isa = PBXBuildFile; fileRef = C8D61F9F19C9582200D1303A /* Button.m */; };
+		C8D61FA319C9591500D1303A /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = C8D61FA219C9591500D1303A /* Rectangle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		C8D61F9919C9554000D1303A /* Shape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shape.m; sourceTree = "<group>"; };
 		C8D61F9B19C9559200D1303A /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
 		C8D61F9C19C9559200D1303A /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
+		C8D61F9E19C9582200D1303A /* Button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Button.h; sourceTree = "<group>"; };
+		C8D61F9F19C9582200D1303A /* Button.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Button.m; sourceTree = "<group>"; };
+		C8D61FA119C9591500D1303A /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		C8D61FA219C9591500D1303A /* Rectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				C8D61F9919C9554000D1303A /* Shape.m */,
 				C8D61F9B19C9559200D1303A /* Circle.h */,
 				C8D61F9C19C9559200D1303A /* Circle.m */,
+				C8D61F9E19C9582200D1303A /* Button.h */,
+				C8D61F9F19C9582200D1303A /* Button.m */,
+				C8D61FA119C9591500D1303A /* Rectangle.h */,
+				C8D61FA219C9591500D1303A /* Rectangle.m */,
 			);
 			path = MyFirstObjectiveCProgram;
 			sourceTree = "<group>";
@@ -219,6 +229,8 @@
 				C8D61F9D19C9559200D1303A /* Circle.m in Sources */,
 				31B705ED17F473B800CACEA7 /* main.m in Sources */,
 				C8D61F9A19C9554000D1303A /* Shape.m in Sources */,
+				C8D61FA019C9582200D1303A /* Button.m in Sources */,
+				C8D61FA319C9591500D1303A /* Rectangle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
