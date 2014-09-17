@@ -21,4 +21,7 @@
 -(void)setCenter:(NSArray *)center;
 -(NSArray *)center;
 
+
+-(void)setCenter:(NSArray *)center radius:(float)radius;
+
 @end
