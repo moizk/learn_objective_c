@@ -11,6 +11,8 @@
 		31B705ED17F473B800CACEA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B705EC17F473B800CACEA7 /* main.m */; };
 		31B7060017F473B800CACEA7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31B705FF17F473B800CACEA7 /* XCTest.framework */; };
 		31B7060117F473B800CACEA7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31B705E017F473B800CACEA7 /* Cocoa.framework */; };
+		C8D61F9A19C9554000D1303A /* Shape.m in Sources */ = {isa = PBXBuildFile; fileRef = C8D61F9919C9554000D1303A /* Shape.m */; };
+		C8D61F9D19C9559200D1303A /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = C8D61F9C19C9559200D1303A /* Circle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,10 @@
 		31B705EE17F473B800CACEA7 /* MyFirstObjectiveCProgram-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyFirstObjectiveCProgram-Prefix.pch"; sourceTree = "<group>"; };
 		31B705FE17F473B800CACEA7 /* MyFirstObjectiveCProgramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstObjectiveCProgramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31B705FF17F473B800CACEA7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C8D61F9819C9554000D1303A /* Shape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shape.h; sourceTree = "<group>"; };
+		C8D61F9919C9554000D1303A /* Shape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shape.m; sourceTree = "<group>"; };
+		C8D61F9B19C9559200D1303A /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		C8D61F9C19C9559200D1303A /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,10 @@
 			children = (
 				31B705E717F473B800CACEA7 /* Supporting Files */,
 				31B705EC17F473B800CACEA7 /* main.m */,
+				C8D61F9819C9554000D1303A /* Shape.h */,
+				C8D61F9919C9554000D1303A /* Shape.m */,
+				C8D61F9B19C9559200D1303A /* Circle.h */,
+				C8D61F9C19C9559200D1303A /* Circle.m */,
 			);
 			path = MyFirstObjectiveCProgram;
 			sourceTree = "<group>";
@@ -206,7 +216,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8D61F9D19C9559200D1303A /* Circle.m in Sources */,
 				31B705ED17F473B800CACEA7 /* main.m in Sources */,
+				C8D61F9A19C9554000D1303A /* Shape.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,6 +393,7 @@
 				31B7061017F473B800CACEA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		31B7061117F473B800CACEA7 /* Build configuration list for PBXNativeTarget "MyFirstObjectiveCProgramTests" */ = {
 			isa = XCConfigurationList;
@@ -389,6 +402,7 @@
 				31B7061317F473B800CACEA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
